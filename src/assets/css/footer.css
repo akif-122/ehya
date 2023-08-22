@@ -1,0 +1,17 @@
+#footer {
+    background: #0D2436;
+    padding: 5rem 2rem;
+
+    .ft-content {
+        .f-logo {
+            width: 90px;
+            margin-bottom: 2.5rem;
+        }
+
+        & p {
+            color: #5A7184;
+            font-size: 1.6rem;
+            line-height: 20px;
+        }
+    }
+}

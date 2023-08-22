@@ -1,0 +1,23 @@
+#hero {
+    background: #F9FCFF;
+    padding: 4rem 2rem ;
+    .hero-content {
+
+        & h1 {
+            color: #183B56;
+            /* font-family: Roboto; */
+            font-size: 5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 6rem;
+            letter-spacing: 0.2px;
+            margin-bottom: 2rem;
+        }
+
+        & p {
+            color: #183B56;
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+    }
+}

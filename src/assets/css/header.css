@@ -1,0 +1,59 @@
+#header {
+    padding: 1rem 1.5rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06);
+
+
+    .navbar-brand {
+        & img {
+            width: 100px;
+        }
+    }
+
+    .navbar-toggler {
+        & span {
+            font-size: 1.8rem;
+        }
+    }
+
+    #myNav {
+        & ul {
+            align-items: center;
+
+            & li {
+                margin: 0 .5rem;
+
+                & a {
+                    color: #183B56;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+                    font-size: 1.6rem;
+                    padding: .5rem 1rem;
+                    font-weight: 600;
+                    transition: .5s ease-in-out;
+
+
+                    &:hover {
+                        color: #1565D8;
+                    }
+                }
+
+                & a.h-btn {
+                    color: #1565D8;
+                    border: 2px solid #1565D8;
+                    border-radius: 40px;
+                    padding: .8rem 3rem;
+                    font-weight: 700;
+
+                    &:hover {
+                        color: #fff;
+                        background: #1565D8;
+                    }
+                }
+
+            }
+        }
+    }
+}

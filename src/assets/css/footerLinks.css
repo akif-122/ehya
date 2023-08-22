@@ -1,0 +1,26 @@
+.ft-links {
+    & h5 {
+        color: #5A7184;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    & ul {
+        list-style: none;
+        padding-left: 0;
+
+        & li {
+            margin: 1.5rem 0;
+            & a {
+                color: #959EAD;
+                font-size: 1.6rem;
+                text-decoration: none;
+                &:hover{
+                    color: #d3d9e3;
+                }
+            }
+
+        }
+    }
+}

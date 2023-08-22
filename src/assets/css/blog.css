@@ -1,0 +1,31 @@
+#blog-section {
+    margin: 4rem 0;
+    padding: 5rem 2rem;
+
+    .blog-btn {
+        margin: 5rem 0;
+        display: flex;
+        justify-content: center;
+
+        & button {
+            color: #1565D8;
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 700;
+            border: 2px solid #1565D8;
+            padding: 1.5rem 2rem;
+            border-radius: .7rem;
+            background-color: transparent;
+            transition: .5s ease-in-out;
+            & svg{
+                font-size: inherit;
+                margin-left: 1rem;
+            }
+            &:hover{
+                color: #fff;
+                background-color: #1565D8;
+            }
+        }
+    }
+
+}
